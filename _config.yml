@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: HelloJS Summer Camps
 subtitle:
 description:
-author: John Doe
-language:
+author: Trunk Studio
+language: zh-tw
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+url: https://trunk-studio.github.io/hellojs-website/
+root: /hellojs-website/
+permalink: :title/
+permalink_defaults: :title/
 
 # Directory
 source_dir: source
@@ -63,9 +63,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: Hacker
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/trunk-studio/hellojs-website.git
+  branch: gh-pages
