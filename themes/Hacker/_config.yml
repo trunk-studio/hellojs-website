@@ -1,6 +1,6 @@
 menu:
   Home: /
-  GitBook: http://hellojs.readbook.tw/
+  教材: http://hellojs.readbook.tw/
   # Slack: /
   # Hackpad: /
 
@@ -14,4 +14,4 @@ disqus: false
 disqus_shortname:
 
 # google analytics
-googleTrackId:
+googleTrackId: "UA-74285642-4"
